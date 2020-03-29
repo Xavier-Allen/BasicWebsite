@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: rgb(231, 231, 230);
+}
+
+.clear{
+    clear: both;
+}
+
+h1 {
+    font-size: 2.6rem;
+    float: left;
+    color: rgb(231, 231, 230);
+}
+
+h2 {
+    font-size: 3.5rem;
+    padding: 4rem 0rem;
+    
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 2.8rem;
+}
+
+a {
+    font-size: 2.5rem;
+    color:white;
+    text-decoration: none;
+}
+
+button {
+    font-size: 2rem;
+}
+
+nav {
+    background: #3D5166;
+    color: white;
+    padding: 2.5rem;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin: 0 4rem;
+}
+
+.hero-section {
+    background-image: url(img/beverage-breakfast-brewed-coffee-caffeine-374885.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100rem;
+    padding-top: 15rem;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+    color: white;
+}
+
+.hero-section button {
+    background-color: rgb(73, 104, 138);
+    border: none;
+    padding: 2rem 6rem;
+    margin: 2.5rem;
+    color:white;
+    cursor: pointer;
+}
+
+.form-section {
+    margin-top: 5rem;
+    text-align: center;
+    color:  rgb(73, 104, 138);
+}
+
+form input,
+form label,
+form textarea {
+   display: block; 
+   font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+    margin: 2rem auto;
+    width: 50%
+}
+
+form button {
+    background-color: rgb(73, 104, 138);
+    border: none;
+    padding: 2rem 6rem;
+    margin: 2.5rem;
+    color:white;
+    cursor: pointer;
+    width: 50%;
+    margin-bottom: 5rem;
+}
